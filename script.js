@@ -56,16 +56,6 @@ function analyzePassword() {
     }
 }
 
-// Pop-up Ad on Page Load
-window.onload = function() {
-    const popupAd = document.getElementById('popupAd');
-    popupAd.style.display = 'block';
-};
-
-function closePopup() {
-    document.getElementById('popupAd').style.display = 'none';
-}
-
 // Scroll-based Ad Trigger (Example)
 window.addEventListener('scroll', function() {
     const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
